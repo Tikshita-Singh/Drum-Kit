@@ -29,27 +29,27 @@ body{
     margin: 10px;
   }
   .w{
-    background-image: url("wdrum.jpg");
+    background-image: url("images/wdrum.png");
   }
   .a{
-    background-image: url("atom2.jpg");
+    background-image: url("images/atom2.png");
   }
   .s{
-     background-image: url("stom3.png");
+     background-image: url("images/stom3.png");
   }
   .d{
-     background-image: url("dsnare.png");
+     background-image: url("images/dsnare.png");
   }
   .j{
-     background-image: url("j drum.jpg");
+     background-image: url("images/jdrum.png");
   }
   .k{
-     background-image: url("kcrash.png");
+     background-image: url("images/kcrash.png");
   }
   .l{
-     background-image: url("kick.png");
+     background-image: url("images/kick.png");
   }
-  
+
   @media(max-width:1000px){
     .drum{
     width: 350px;
