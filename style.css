@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: #0818A8;
+  }
+  h1{
+    font-size: 100px;
+    color: #FAFAD2;
+    font-family: 'Zen Dots', cursive;
+    text-shadow: 5px 3px #800000;
+  }
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  .drum{
+    font-size: 5rem;
+    font-family: 'Zen Dots', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #8B0000;
+    border: 10px solid #4169E1; 
+    border-radius: 25px;
+    text-shadow: 4px 0px #CD5C5C;
+    background-color: white;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+  }
+  .w{
+    background-image: url("wdrum.jpg");
+  }
+  .a{
+    background-image: url("atom2.jpg");
+  }
+  .s{
+     background-image: url("stom3.png");
+  }
+  .d{
+     background-image: url("dsnare.png");
+  }
+  .j{
+     background-image: url("j drum.jpg");
+  }
+  .k{
+     background-image: url("kcrash.png");
+  }
+  .l{
+     background-image: url("kick.png");
+  }
+  
+  @media(max-width:1000px){
+    .drum{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    margin: 10px 10px 10px 323px;
+    display: block;
+    }
+  }
