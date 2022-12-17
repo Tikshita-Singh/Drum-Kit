@@ -49,8 +49,14 @@ body{
   .l{
      background-image: url("images/kick.png");
   }
+  footer{
+    margin: 180px;
+    color: #FAFAD2;
+    font-size: 30px;
+    font-family: cursive;
+  }
 
-  @media(max-width:1000px){
+  @media screen and (max-width:1200px){
     .drum{
     width: 350px;
     height: 200px;
